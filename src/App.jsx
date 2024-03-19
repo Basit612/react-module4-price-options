@@ -1,7 +1,18 @@
+// import Navbar from "./components/Navbar/Navbar";
+
+import LineChart from "./components/LineChart/LineChart";
+import NavBarr from "./components/NavBarr/NavBarr";
+import Phones from "./components/Phones/Phones";
+import Prices from "./components/Prices/Prices";
+
 function App() {
   return (
     <>
-      <h1 className="text-5xl text-center mt-80 ">hello</h1>
+      <NavBarr></NavBarr>
+      {/* <Navbar></Navbar> */}
+      <Prices></Prices>
+      <LineChart></LineChart>
+      <Phones></Phones>
     </>
   );
 }
